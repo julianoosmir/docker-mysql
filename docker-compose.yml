@@ -1,11 +1,11 @@
-version: '3.3'
+version: '3.8'
 services:
     db:
         image: mysql
         container_name: mysql
         environment:
             MYSQL_DATABASE: dbagenda
-            MYSQL_USER: root
+            MYSQL_USER: user
             MYSQL_ROOT_PASSWORD: root
             MYSQL_PASSWORD: 123456
         ports:
